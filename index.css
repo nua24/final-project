@@ -1,0 +1,99 @@
+
+
+.container-flex {
+    text-align: center;
+    background: flex;
+    gap: 500px;
+}
+
+.flex {
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.item {
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    gap: 3000px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .layer-one {
+    background: flex;
+    width: 100px;
+    size-adjust: 50px;
+    text-align: right;
+}
+
+.layer {
+    display: flex;
+    width: 10px; 
+    text-align: left;
+    gap: 5px;
+}
+
+.mini {
+display: flex;
+align-items: left;
+background-size: 50px;
+height: 50px;
+width: 10px;
+gap: 50px;
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    width: 20;
+}
+
+.organize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    width: 20px;
+    color: lightslategray;
+    background-color: white;
+}
+
+.image {
+    width: 30px;
+    border: 10px;
+    height: 20px;
+    gap: 300px;
+}
+
+
+.matter {
+    display: flex;
+    align-items: center;
+    background-size: 100px;
+    height: 150px;
+    width: 1000px;
+    gap: 50px;
+}
+
+
+.foot {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 50px;
+    background: greyish blue;
+}
